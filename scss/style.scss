@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Homenaje');
+
+.p-canvas-webgl {
+  position: fixed;
+  z-index: 1;
+  top: 0; left: 0;
+}
+
+.p-summary {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 2;
+  color: #ffffff;
+  font-family: 'Homenaje', sans-serif;
+  text-align: center;
+  h1 {
+    margin: 0 0 0.1em;
+    font-size: 18vh;
+    font-weight: 400;
+  }
+  p {
+    margin: 0;
+    font-size: 3vh;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  a {
+    color: #fff;
+  }
+}
